@@ -1,58 +1,34 @@
-﻿class Program
-{
-    static void Main()
+string continuar;
+do{
+    Console.WriteLine("Informe o nome do estudante ")
+    string nome = Console.ReadLine();
+    Console.WriteLine("Informe primeira nota: ")
+    double nota1 = Convert.ToDouble(Console.ReadLine());
+    Console.WriteLine("Informe segunda nota: ")
+    double nota2 = Convert.ToDouble(Console.ReadLine());
+    Console.WriteLine("Informe terceira nota: ")
+    double nota3 = Convert.ToDouble(Console.ReadLine());
+
+    double media = (nota1 + nota2 + nota 3) / 3;
+
+    string status;
+    if (media >= 7)
     {
-        while (true)
-        {
-            Console.Write("Digite o nome do estudante: ");
-            string nome = Console.ReadLine();
-            
-            double[] notas = new double[3];
-            
-            for (int i = 0; i < 3; i++)
-            {
-                Console.Write($"Digite a nota {i + 1} do estudante: ");
-                notas[i] = Convert.ToDouble(Console.ReadLine());
-            }
-            
-            double media = CalcularMedia(notas);
-            string resultado = VerificarAprovacao(media);
-            
-            Console.WriteLine("\nRelatório:");
-            Console.WriteLine($"Nome do estudante: {nome}");
-            Console.WriteLine($"Notas: {string.Join(", ", notas)}");
-            Console.WriteLine($"Média: {media:F2}");
-            Console.WriteLine($"Resultado: {resultado}\n");
-            
-            Console.Write("Deseja gerar um novo relatório para outro estudante? (S/N): ");
-            string continuar = Console.ReadLine().ToUpper();
-            
-            if (continuar != "S")
-            {
-                break;
-            }
-        }
+        status = "aprovado"
+    }
+    else
+    {
+        status = "reprovado"
     }
 
-    static double CalcularMedia(double[] notas)
-    {
-        double soma = 0;
-        foreach (double nota in notas)
-        {
-            soma += nota;
-        }
-        return soma / notas.Length;
-    }
+    Console.WriteLine("\n relatorio de desempenho");
+    Console.WriteLine("Nome do aluno: " + nome);
+    Console.WriteLine($"notas: {nota1}, {nota2}, {nota3} ");
+    Console.WriteLine("media + " + media);
+    Console.WriteLine("status: " + status);
 
-    static string VerificarAprovacao(double media)
-    {
-        if (media >= 7.0)
-        {
-            return "Aprovado";
-        }
-        else
-        {
-            return "Reprovado";
-        }
-    }
-}
+
+    Console.WriteLine("deseja gerar um novo relatorio? (S/N)");
+    continuar = Console.ReadLine() .ToLower();
+}while(continuar = "s");
+ Console.WriteLine("obrigado por usar o gerador de relatório de desempenho");
