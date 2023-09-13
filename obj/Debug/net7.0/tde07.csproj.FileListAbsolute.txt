@@ -1,0 +1,14 @@
+C:\Users\alexandrebrneto\tde07\bin\Debug\net7.0\tde07.exe
+C:\Users\alexandrebrneto\tde07\bin\Debug\net7.0\tde07.deps.json
+C:\Users\alexandrebrneto\tde07\bin\Debug\net7.0\tde07.runtimeconfig.json
+C:\Users\alexandrebrneto\tde07\bin\Debug\net7.0\tde07.dll
+C:\Users\alexandrebrneto\tde07\bin\Debug\net7.0\tde07.pdb
+C:\Users\alexandrebrneto\tde07\obj\Debug\net7.0\tde07.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexandrebrneto\tde07\obj\Debug\net7.0\tde07.AssemblyInfoInputs.cache
+C:\Users\alexandrebrneto\tde07\obj\Debug\net7.0\tde07.AssemblyInfo.cs
+C:\Users\alexandrebrneto\tde07\obj\Debug\net7.0\tde07.csproj.CoreCompileInputs.cache
+C:\Users\alexandrebrneto\tde07\obj\Debug\net7.0\tde07.dll
+C:\Users\alexandrebrneto\tde07\obj\Debug\net7.0\refint\tde07.dll
+C:\Users\alexandrebrneto\tde07\obj\Debug\net7.0\tde07.pdb
+C:\Users\alexandrebrneto\tde07\obj\Debug\net7.0\tde07.genruntimeconfig.cache
+C:\Users\alexandrebrneto\tde07\obj\Debug\net7.0\ref\tde07.dll
